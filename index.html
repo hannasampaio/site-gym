@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">BODY LIFE</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-academia" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Academia</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Serviços</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#modalidades" class="nav-link">
+                            <i class="bi bi-card-list me-1"></i>
+                            Modalidades</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-academia">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./images/img-academia/img02.jpg" alt="foto de halteres" >
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./images/img-academia/img03.jpg"alt="foto piscina" >
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100"  src="./images/img-academia/img04.jpg" alt="Foto espaço academia" >
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row justify-content-end">
+                        <div class="col-md-6">
+                            <img src="./images/img-academia/img01.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno da academia">
+                        </div>
+                        <div class="col-md-6 mt-3 mt-md-0">
+                            <h2 class="section-title text-center">Nossa academia</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet tempora, eius sequi illo voluptate repudiandae corporis inventore exercitationem facere maiores dolores ab dicta deserunt labore sint autem aspernatur? Commodi, non!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates vitae placeat provident optio vel, blanditiis rerum. Similique quo exercitationem nesciunt! Magni tempora quo autem sunt est nobis facilis perspiciatis alias.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quos repellat nihil laborum, quam, minima incidunt optio beatae expedita, saepe at doloribus labore nesciunt dolorum! Sint at cum sequi laudantium.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aut repellendus praesentium sequi exercitationem deleniti aperiam quos distinctio alias ea recusandae fugit sunt eaque quibusdam, mollitia, totam ab ullam facere.
+                            </p>
+                            <h3 class="section-title">Diferenciais:</h3>
+                            <ul>
+                                <li> Item 1</li>
+                                <li> Item 2 </li>
+                                <li> Item 3 </li>
+                                <li> Item 4 </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Serviços Adicionais</h2>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <img src="./images/serviços/personal.jpg" alt="Foto personal-trainer" class="d-block w-100 rounder mb-2">
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Personal training
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nemo voluptatibus magni perspiciatis nihil sed eos voluptates maiores, veniam exercitationem praesentium harum, voluptatem assumenda repudiandae sint amet incidunt aspernatur eaque?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/serviços/nutricao.jpg" alt="Foto prato saúdavel e barra de academia " class="d-block w-100 rounder mb-2">
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Nutrição
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nemo voluptatibus magni perspiciatis nihil sed eos voluptates maiores, veniam exercitationem praesentium harum, voluptatem assumenda repudiandae sint amet incidunt aspernatur eaque?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/serviços/massagem.jpg" alt="Foto massagem" class="d-block w-100 rounder mb-2">
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            SPA
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nemo voluptatibus magni perspiciatis nihil sed eos voluptates maiores, veniam exercitationem praesentium harum, voluptatem assumenda repudiandae sint amet incidunt aspernatur eaque?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="modalidades" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Modalidades
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-modalidades">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#aulas_de_grupo" class="fw-bold text-start nav-link section-title2 active">Aulas de Grupo</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#plano_de_agua" class="fw-bold text-start section-title2 nav-link">Plano de Água</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#artes_marciais" class="fw-bold text-start section-title2 nav-link">Artes Marciais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#kids" class="fw-bold text-start section-title2 nav-link">Kids</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="aulas_de_grupo">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/01/03/08/02/weights-1948837_1280.jpg" alt="coca-cola">
+                                        <h5 class="section-title fw-bold mt-2">Pilates</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/01/20/11/44/yoga-1994667_1280.jpg" alt="suco">
+                                        <h5 class="section-title fw-bold mt-2">Ioga</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/04/04/16/44/kettlebell-3290296_1280.jpg" alt="coca-cola">
+                                        <h5 class="section-title fw-bold mt-2">Body Pump</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/04/04/16/47/kettlebell-3290305_1280.jpg" alt="suco">
+                                        <h5 class="section-title fw-bold mt-2">Localizada</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/07/12/20/56/zumba-4333580_1280.jpg" alt="coca-cola">
+                                        <h5 class="section-title fw-bold mt-2">Zumba</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/01/08/10/41/sports-1962574_1280.jpg" alt="suco">
+                                        <h5 class="section-title fw-bold mt-2">Cycling</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="plano_de_agua">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2013/03/15/22/08/swimming-94134_1280.jpg" alt="nome da entrada">
+                                        <h5 class="section-title fw-bold mt-2">Natação</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2022/06/19/13/31/swimming-7271893_1280.jpg" alt="nome da entrada">
+                                        <h5 class="section-title fw-bold mt-2">Hidroginática</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="artes_marciais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/08/18/14/15/black-belt-894190_1280.jpg" alt="pizza">
+                                        <h5 class="section-title fw-bold mt-2">Karatê</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/07/06/21/35/jiu-jitsu-8111389_1280.jpg" alt="salmão">
+                                        <h5 class="section-title fw-bold mt-2">Jiu Jitsu</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/10/06/06/51/boxing-2822129_1280.jpg" alt="pizza">
+                                        <h5 class="section-title fw-bold mt-2">Boxe</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/07/30/23/18/kickboxer-1558204_640.jpg" alt="salmão">
+                                        <h5 class="section-title fw-bold mt-2">Kickboxing</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/09/12/15/36/muaythai-2742648_1280.jpg" alt="salmão">
+                                        <h5 class="section-title fw-bold mt-2">Muay Thai</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="kids">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2020/03/17/20/16/ballet-4941738_1280.jpg" alt="bolo de chocolate">
+                                        <h5 class="section-title fw-bold mt-2">Ballet</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/07/14/20/51/young-swimmer-2504990_1280.jpg" alt="cupcake">
+                                        <h5 class="section-title fw-bold mt-2">Natação Kids</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold section-title2">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold section-title2">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold section-title2">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" name="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold section-title2">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" name="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4">Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook section-title2"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram section-title2"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp section-title2"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-5">
+                            <h3 class="section-title fs-4">Endereço</h3>
+                            <address class="section-title2">
+                                Rua Projeto Exemplo, nº3, Bairro Bootstrap - Rio de Janeiro - RJ
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar, button {
+    background-color: #024959;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color:#024959;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-modalidades .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family:'Kalam', cursive;
+    font-size: 36px;
+}
+
+.navbar-toggler {
+    background-color: #edf0f1;
+}
+
+.section-title {
+    font-family:'Kalam', cursive;
+    color:#026873;
+}
+
+#sobre-a-academia, #modalidades {
+    background-color: #e3e3eb;
+}
+
+#sobre-a-academia {
+    text-align: justify;
+}
+
+.nav-modalidades .nav-link.active,
+#fale-conosco button {
+    background-color: #024959;
+    color: #fff;
+}
+
+.nav-modalidades .nav-link,
+.nav-modalidades .nav-link:hover {
+    color:#024959;
+}
+.section-title2 {
+    color:#026873;
+}
+
+.social-links li {
+    list-style-type: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+
+
+
